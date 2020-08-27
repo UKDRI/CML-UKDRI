@@ -30,7 +30,28 @@ To help our model to learn the data patterns more efficiently, we aggregate the 
 ![aggregated_data](figures/aggregated_data.png)
 
 The collected data will be analysed by our machine learning models and report to the clinical team if an abnormal case is detected. However, this could be really a challenging task. 
-First of all, verify the cases are positive or not are time-consuming. For example, we have 
+Verifying the cases are positive or not are time-consuming and a majority of our samples are unlabelled. Actually, only around 1.5\% of the data is labelled.
+
+![proportion](figures/proportion.png)
+
+To deal with this issue, we leverage the semi-supervised learning techniques to train the models.
+
+![learning process](figures/cae_conv_V5.png)
+
+Different from the conventional semi-supervised learning models, we leverage the probabilistic neural networks to estimate the density distribution of the data. We leverage the concept of self-training to train the auto-encoder and increase the margin between the positive and negative samples. Please check our paper for the further details.
+
+![probabilistic neural networks](figures/pnn.png)
+
+We have comapred our model with other semi-supervised models, the results show that our model outperform others.
+
+![uti results](figures/uti_results.png)
+
+Now, this model is deployed and running to detect the UTI symptoms. 
+
+
+
+
+
 
 
 
