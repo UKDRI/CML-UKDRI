@@ -45,8 +45,6 @@ To deal with this issue, we leverage the semi-supervised learning techniques to 
 ![probabilistic neural networks](figures/pnn.png)
 
 
-Now, this model is deployed and running to detect the UTI symptoms. 
-
 
 
 
