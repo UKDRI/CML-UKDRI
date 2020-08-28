@@ -40,11 +40,7 @@ Verifying the cases are positive or not are time-consuming and a majority of our
 
 ![proportion](figures/proportion.png)
 
-To deal with this issue, we leverage the semi-supervised learning techniques to train the models.
-
-![learning process](figures/cae_conv_V5.png)
-
-Different from the conventional semi-supervised learning models, we leverage the probabilistic neural networks to estimate the density distribution of the data. We leverage the concept of self-training to train the auto-encoder and increase the margin between the positive and negative samples. Please check our paper for the further details.
+To deal with this issue, we leverage the semi-supervised learning techniques to train the models. Different from the conventional semi-supervised learning models, we leverage the probabilistic neural networks to estimate the density distribution of the data. We leverage the concept of self-training to train the auto-encoder and increase the margin between the positive and negative samples. Please check our paper for the further details.
 
 ![probabilistic neural networks](figures/pnn.png)
 
