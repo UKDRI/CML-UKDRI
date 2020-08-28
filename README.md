@@ -4,6 +4,12 @@ Dementia represents one of the toughest medical and economic challenges facing o
 
 ![overview](figures/overview.png)
 
+This is the user interface, which can largely help the clinical team to check the data collected from users if abnormal cases detected.
+
+![user interface](figures/ui_main.png)
+
+![user interface](figures/ui_dashboard.png)
+
 In this project, a model is designed to analyse the risk of Urinary Tract Infections (UTIs). UTIs are one of the top reasons for unplanned hospital admissions in people with dementia, and if detected early, they can be treated and avoid unplanned hospital admissions. 
 
 ![uti_process](figures/uti_process.png)
@@ -11,7 +17,7 @@ In this project, a model is designed to analyse the risk of Urinary Tract Infect
 
 To provide ealier detection of UTI symptoms, we deploy several sensors to collect the daily activaties patterns. 
 
-We have colletect the physiological data
+We have collected the physiological data
 
 ![physilogical_data](figures/physiological.png)
 
@@ -42,9 +48,6 @@ Different from the conventional semi-supervised learning models, we leverage the
 
 ![probabilistic neural networks](figures/pnn.png)
 
-We have comapred our model with other semi-supervised models, the results show that our model outperform others.
-
-![uti results](figures/uti_results.png)
 
 Now, this model is deployed and running to detect the UTI symptoms. 
 
