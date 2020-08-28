@@ -44,6 +44,7 @@ To deal with this issue, we leverage the semi-supervised learning techniques to 
 
 ![probabilistic neural networks](figures/pnn.png)
 
+The model is deployed in an instance of the platform used in a clinical study to detect the risk of UTIs.
 
 
 
