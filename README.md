@@ -1,6 +1,6 @@
 # CML-UKDRI
 
-Dementia represents one of the toughest medical and economic challenges facing our society today. Around 850,000 people in the UK have dementia and the number of people affected will continue to grow as the population ages. There are currently no effective therapeutics for any of the neurodegenerative conditions that give rise to dementia. To help people with dementia, we develop a digital platform to make the investigation of the clinical team more efficiently.
+Dementia represents one of the toughest medical and economic challenges facing our society today. Around 850,000 people in the UK have dementia and the number of people affected will continue to grow as the population ages. There are currently no effective therapeutics for any of the neurodegenerative conditions that give rise to dementia. To help people with dementia, we develop a digital platform to make the investigation of the clinical team more efficiently. An oneline demo is available at [here](https://tihm-iot-dev.ee.surrey.ac.uk)
 
 ![overview](figures/overview.png)
 
